@@ -1,4 +1,4 @@
-package coding_test.basic;
+package learning.coding_test.basic;
 
 public class FindNumberNearestToZero {
 

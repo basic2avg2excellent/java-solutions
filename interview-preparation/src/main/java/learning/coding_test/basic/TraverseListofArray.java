@@ -1,4 +1,4 @@
-package coding_test.basic;
+package learning.coding_test.basic;
 
 import java.util.Arrays;
 import java.util.List;

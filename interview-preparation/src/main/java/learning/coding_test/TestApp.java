@@ -1,4 +1,4 @@
-package coding_test;
+package learning.coding_test;
 
 public class TestApp {
 

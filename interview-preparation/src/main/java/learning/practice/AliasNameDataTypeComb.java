@@ -1,4 +1,4 @@
-package practice;
+package learning.practice;
 
 import java.util.HashMap;
 import java.util.List;
