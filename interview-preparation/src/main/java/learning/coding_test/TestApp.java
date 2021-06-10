@@ -1,12 +1,20 @@
 package learning.coding_test;
 
-public class TestApp {
+import learning.coding_test.intermediate.CoronaVirus;
+import learning.coding_test.intermediate.RenameString;
 
-	public static void main(String[] args) {
-		String input= "{\"AE Study ID\":\"221AD302\",\"AE Subject ID\":\"221AD302~553~553055\",\"AE Term\":\"tinnitus , rumours\",\"AE Serverity\":\"MILD\",\"SAE Flag\":\"N\",\"AE Acn\":\"DOSE NOT CHANGED\",\"AE End Date\":2018-10--}";
-		String[] array = input.split("\",\"");
-		for(int i=0; i<array.length; i++) {
-			System.out.println("\""+array[i]+"\"\n");
-		}
+public class TestApp {
+	public static void main(String[] args) throws Exception {
+		
+		/**Intermediate Package*/
+		//CoronaVirus
+		CoronaVirus.start();
+		//GroupAnagramWords
+		
+		//PrimeGame
+		
+		//RenameString
+//		System.out.println(RenameString.reNameString("abcdVariableName"));
+//		System.out.println(RenameString.reNameString("abcd_variable_name"));
 	}
 }
