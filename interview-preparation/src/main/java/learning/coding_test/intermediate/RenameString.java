@@ -1,9 +1,11 @@
 package learning.coding_test.intermediate;
 
-// Input                      => Output
-// abcdVariableName => abcd_variable_name
-// abcd_variable_name => abcdVariableName
-public class RenameString {
+/** 
+ * Input										Output
+ * abcdVariableName				abcd_variable_name
+ * abcd_variable_name			abcdVariableName
+ */
+ public class RenameString {
 	public static String reNameString(String input) {
 		String output = "";
 		if(input.contains("_")) {
