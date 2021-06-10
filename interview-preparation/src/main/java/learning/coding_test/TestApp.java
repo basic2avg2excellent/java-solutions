@@ -8,7 +8,7 @@ public class TestApp {
 		
 		/**Intermediate Package*/
 		//CoronaVirus
-		CoronaVirus.start();
+//		CoronaVirus.start();
 		//GroupAnagramWords
 		
 		//PrimeGame
