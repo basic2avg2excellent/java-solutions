@@ -5,9 +5,9 @@ import java.util.Random;
 
 public class CursorMove {
 	
-	private static final int FIVE_SECONDS = 8000;
-	private static final int MAX_X = 400;
-	private static final int MAX_Y = 400;
+	private static final int TEN_SECONDS = 10000;
+	private static final int MAX_X = 800;
+	private static final int MAX_Y = 1000;
 	
 	
 	public static void main(String[] args) throws Exception {
@@ -16,7 +16,7 @@ public class CursorMove {
 		
 		while(true) {
 			robot.mouseMove(random.nextInt(MAX_X), random.nextInt(MAX_Y));
-			Thread.sleep(FIVE_SECONDS);
+			Thread.sleep(TEN_SECONDS);
 		}
 	}
 

@@ -1,8 +1,6 @@
 package learning.coding_test.intermediate;
 
-import java.io.*;
-
-class Result {
+public class CamelCase {
 
     /*
      * Complete the 'camelcase' function below.
@@ -11,33 +9,15 @@ class Result {
      * The function accepts STRING s as parameter.
      */
 
-    public static int camelcase(String s) {
+    public static int camelcase(String string) {
     // Write your code here
-        char[] input = s.toCharArray();
-        int output = 1;
-        for(int i=0; i<input.length; i++){
-            if(Character.isUpperCase(input[i])){
-                output++;
+        int count = 0;
+        for (int i = 0; i < string.length(); i++) {
+            if(Character.isUpperCase(string.charAt(i))){
+                count++;
             }
         }
-        return output;
+        return count;
     }
 
-}
-
-public class CamelCase {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-        String s = bufferedReader.readLine();
-
-        int result = Result.camelcase(s);
-
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
-
-        bufferedReader.close();
-        bufferedWriter.close();
-    }
 }
