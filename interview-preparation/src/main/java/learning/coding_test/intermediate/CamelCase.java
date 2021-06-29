@@ -9,7 +9,7 @@ public class CamelCase {
      * The function accepts STRING s as parameter.
      */
 
-    public static int camelcase(String string) {
+    public static int camelCaseCount(String string) {
     // Write your code here
         int count = 0;
         for (int i = 0; i < string.length(); i++) {
