@@ -1,7 +1,7 @@
 package learning.coding_test.intermediate;
 
 /** 
- * Input										Output
+ * Input						Output
  * abcdVariableName				abcd_variable_name
  * abcd_variable_name			abcdVariableName
  */

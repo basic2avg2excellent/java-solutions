@@ -1,9 +1,12 @@
 package learning.coding_test;
 
+import java.util.Arrays;
+
 import learning.coding_test.intermediate.CamelCase;
 import learning.coding_test.intermediate.CoronaVirus;
 import learning.coding_test.intermediate.ListElementModify;
 import learning.coding_test.intermediate.RenameString;
+import learning.coding_test.intermediate.ZeroOneSorting;
 import utility.input.ArrayInput;
 
 public class TestApp {
@@ -21,5 +24,9 @@ public class TestApp {
 		//RenameString
 //		System.out.println(RenameString.reNameString("abcdVariableName"));
 //		System.out.println(RenameString.reNameString("abcd_variable_name"));
+		//ZeroOneSorting
+//		ZeroOneSorting.zeroOneAscendingSorting(ArrayInput.ZEROS_ONES);
+//		System.out.println();
+//		ZeroOneSorting.zeroOneDecendingSorting(ArrayInput.ZEROS_ONES);
 	}
 }
