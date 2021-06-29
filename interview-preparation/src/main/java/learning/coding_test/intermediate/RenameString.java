@@ -17,28 +17,28 @@ package learning.coding_test.intermediate;
 	}
 
 	private static String add_(String input) {
-		char[] inputArray = input.toCharArray();
+		// char[] inputArray = input.toCharArray();
 		StringBuffer sb = new StringBuffer();
-		for (int i = 0; i < inputArray.length; i++) {
-			if(Character.isUpperCase(inputArray[i])) {
+		for (int i = 0; i < input.length(); i++) {
+			if(Character.isUpperCase(input.charAt(i))) {
 				sb.append("_");
-				sb.append(Character.toLowerCase(inputArray[i]));
+				sb.append(Character.toLowerCase(input.charAt(i)));
 			}else {
-				sb.append(inputArray[i]);
+				sb.append(input.charAt(i));
 			}
 		}
 		return sb.toString();
 	}
 
 	private static String remove_(String input) {
-		char[] inputArray = input.toCharArray();
+		// char[] inputArray = input.toCharArray();
 		StringBuffer sb = new StringBuffer();
-		for (int i = 0; i < inputArray.length; i++) {
-			if(inputArray[i]=='_') {
-				sb.append(Character.toUpperCase(inputArray[i+1]));
+		for (int i = 0; i < input.length(); i++) {
+			if(input.charAt(i)=='_') {
+				sb.append(Character.toUpperCase(input.charAt(i+1)));
 				i++;
 			}else {
-				sb.append(inputArray[i]);
+				sb.append(input.charAt(i));
 			}
 		}
 		return sb.toString();
