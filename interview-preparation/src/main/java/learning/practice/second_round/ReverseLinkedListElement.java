@@ -1,4 +1,4 @@
-package learning.second_round;
+package learning.practice.second_round;
 
 
 /**

@@ -1,4 +1,4 @@
-package learning.first_round;
+package learning.practice.first_round;
 
 public class PrimalityTest1 {
 	public static void main(String[] args) {
