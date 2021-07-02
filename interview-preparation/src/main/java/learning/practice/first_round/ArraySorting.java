@@ -1,4 +1,4 @@
-package learning.first_round;
+package learning.practice.first_round;
 
 //Bubble Sort, Quick Sort and implement other sorting also
 public class ArraySorting {

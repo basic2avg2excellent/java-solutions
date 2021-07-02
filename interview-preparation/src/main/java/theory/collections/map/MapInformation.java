@@ -1,4 +1,4 @@
-package theory.collections;
+package theory.collections.map;
 
 public class MapInformation {
 

@@ -1,4 +1,4 @@
-package theory.java8;
+package theory.java8.lambda;
 
 public class ListSortingByLambda {
 
