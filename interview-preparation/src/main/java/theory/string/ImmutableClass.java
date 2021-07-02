@@ -16,9 +16,9 @@ import java.util.Date;
  * Always remember that your instance variables will be either mutable or immutable.
 * Identify them and return new objects with copied content for all mutable objects.
 * Immutable variables can be returned safely without extra effort.
- * 
+ * HashMap<Key, value> : Key always should be immutable in nature. Because if 
  */
-public final class ImmutableClass {
+public final class ImmutableClass implements Comparable<ImmutableClass>{
 	
 //	Integer class is immutable as it does not provide any setter to change its content
 	private final Integer immutableInteger;
@@ -66,5 +66,14 @@ public final class ImmutableClass {
 	@Override
 	public String toString() {
 		return immutableInteger +" : "+ immutableString +" : "+immutableDate;
+	}
+
+	@Override
+	public int compareTo(ImmutableClass o) {
+		return 0;
+	}
+	
+	private static int compare(int x, int y) {
+		return (x<y) ? -1 : ((x==y) ? 0 : 1);
 	}
 }
