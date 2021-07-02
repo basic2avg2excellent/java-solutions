@@ -9,11 +9,11 @@ import java.util.Scanner;
 
 /**
  * Input : 
- * coronavirus
- * 3
- * abcde
- * crnas
- * onarous
+ * coronavirus			[disease]
+ * 3								[number of patient needs to be checked]
+ * abcde						[1st patient sample]
+ * crnas						[2nd patient sample]
+ * onarous				[3rd patient sample]
  * 
  * Output : 
  * NEGATIVE
@@ -27,6 +27,7 @@ public class CoronaVirus {
 	private static char[] diseaseArray;
 
 	public static void start() {
+		System.out.println("Let's find the patient is virus infected or not ?");
 		scan = new Scanner(System.in);
 		String checkString = scan.next();
 		int numberOfPatient = scan.nextInt();
@@ -41,7 +42,9 @@ public class CoronaVirus {
 		inputList.forEach(string -> {
 			output.add(manageRecord(string));
 		});
-		output.forEach(System.out::println);
+		for (int i = 0; i < output.size(); i++) {
+			System.out.println(inputList.get(i)+"==="+output.get(i));
+		}
 	}
 
 	private static String manageRecord(String checkPatent) {

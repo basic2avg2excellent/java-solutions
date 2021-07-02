@@ -16,7 +16,7 @@ public class TestApp {
 		//CamelCase
 //		System.out.println(CamelCase.camelCaseCount("DomainSourceConnectionUtility.Class"));//5
 		//CoronaVirus
-//		CoronaVirus.start();
+		CoronaVirus.start();
 		//GroupAnagramWords
 		//ListElementModify
 //		System.out.println(ListElementModify.appendCount(ArrayInput.STRING_ALPHABET_ARRAY));
