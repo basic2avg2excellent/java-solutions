@@ -72,8 +72,4 @@ public final class ImmutableClass implements Comparable<ImmutableClass>{
 	public int compareTo(ImmutableClass o) {
 		return 0;
 	}
-	
-	private static int compare(int x, int y) {
-		return (x<y) ? -1 : ((x==y) ? 0 : 1);
-	}
 }
